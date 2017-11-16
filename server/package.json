@@ -1,0 +1,30 @@
+{
+  "name": "server_secondary_skills",
+  "version": "1.0.0",
+  "description": "Server-side application with REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "forever start --minUptime 1000 --spinSleepTime 1000 server.js --host 172.30.27.154",
+    "dev": "nodemon server.js"
+  },
+  "author": "Julia Panchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "eslint": "^4.4.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "express-roles-authorization": "^0.12.0",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.11.6",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0",
+    "passport-local": "^1.0.0"
+  }
+}

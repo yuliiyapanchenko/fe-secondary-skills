@@ -1,0 +1,73 @@
+form a {
+    margin-left: 5px;
+}
+
+.jumbotron {
+    background: url(./images/header.jpg) no-repeat fixed;
+    background-size: 100%;
+}
+
+@media (min-width: 544px) {
+    .jumbotron {
+        padding: 18rem 1rem 1rem 1rem !important;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .row-footer {
+        bottom: 0;
+    }
+}
+
+.row-header {
+    margin: 0 auto;
+    padding: 0 auto;
+    line-height: 1.5;
+}
+
+.row-footer {
+    text-align: center;
+    width: 100%;
+    background-color: #E62C33;
+    color: white;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+}
+
+.aside {
+    background: #191919;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+}
+
+.aside > h4 {
+    color: #E62C33;
+}
+
+.aside > div {
+    height: 250px;
+}
+
+time {
+    position: absolute; /*or fixed*/
+    right: 10px;
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.posts {
+    max-height: 250px;
+    overflow: scroll;
+}
+
+.list-group {
+    margin: 10px;
+}

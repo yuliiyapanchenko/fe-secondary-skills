@@ -1,0 +1,34 @@
+{
+  "GET": {
+    "/": {
+      "roles": null
+    }
+  },
+  "POST": {
+    "/signup": {
+      "roles": null
+    },
+    "/signin": {
+      "roles": null
+    },
+    "/posts": {
+      "roles": [
+        "admin"
+      ]
+    }
+  },
+  "PUT": {
+    "/posts/:postId": {
+      "roles": [
+        "admin"
+      ]
+    }
+  },
+  "DELETE": {
+    "/posts/:postId": {
+      "roles": [
+        "admin"
+      ]
+    }
+  }
+}
